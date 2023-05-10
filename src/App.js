@@ -1,12 +1,11 @@
-import { Button, Heading, VStack } from '@chakra-ui/react'
+import { Heading, VStack } from '@chakra-ui/react'
+import FactorialFunction from './FactorialFunction';
 
-function App() {
+export default function App() {
   return (
     <VStack>
-      <Heading>Javascript App</Heading>
-      <Button>Test</Button>
+      <Heading as={"h1"} size={"2xl"}>Javascript App</Heading>
+      <FactorialFunction />
     </VStack>
   );
 }
-
-export default App;
